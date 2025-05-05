@@ -83,7 +83,7 @@ const generateDummyData = (count: number) => {
 };
 
 // 초기 데이터 생성 (예: 100개)
-const initialData = generateDummyData(10);
+const initialData = generateDummyData(100);
 
 // API를 시뮬레이션하는 함수 (페이지네이션)
 const fetchMoreData = async (page = 1, pageSize = 20) => {
