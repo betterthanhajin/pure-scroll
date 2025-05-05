@@ -1,9 +1,10 @@
 import "./App.css";
+import PureScroll from "./components/pure-scroll";
 
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <PureScroll />
     </div>
   );
 }
